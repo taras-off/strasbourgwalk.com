@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
 <title>All Strasbourg Guides | TouringBee</title>
-<meta name="description" content="Every guide on Strasbourg Walk: the cathedral, the Christmas market, Petite France, getting there and where to stay — all fact-checked for 2026.">
-<link rel="canonical" href="https://strasbourgwalk.com/guides/">
-<link rel="alternate" hreflang="en" href="https://strasbourgwalk.com/guides/">
-<link rel="alternate" hreflang="fr" href="https://strasbourgwalk.com/fr/guides/">
-<link rel="alternate" hreflang="de" href="https://strasbourgwalk.com/de/guides/">
-<link rel="alternate" hreflang="es" href="https://strasbourgwalk.com/es/guides/">
-<link rel="alternate" hreflang="it" href="https://strasbourgwalk.com/it/guides/">
-<link rel="alternate" hreflang="pt" href="https://strasbourgwalk.com/pt/guides/">
-<link rel="alternate" hreflang="pl" href="https://strasbourgwalk.com/pl/guides/">
-<link rel="alternate" hreflang="ru" href="https://strasbourgwalk.com/ru/guides/">
-<link rel="alternate" hreflang="x-default" href="https://strasbourgwalk.com/guides/">
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png">
+<meta content="Every guide on Strasbourg Walk: the cathedral, the Christmas market, Petite France, getting there and where to stay — all fact-checked for 2026." name="description"/>
+<link href="https://strasbourgwalk.com/guides/" rel="canonical"/>
+<link href="https://strasbourgwalk.com/guides/" hreflang="en" rel="alternate"/>
+<link href="https://strasbourgwalk.com/fr/guides/" hreflang="fr" rel="alternate"/>
+<link href="https://strasbourgwalk.com/de/guides/" hreflang="de" rel="alternate"/>
+<link href="https://strasbourgwalk.com/es/guides/" hreflang="es" rel="alternate"/>
+<link href="https://strasbourgwalk.com/it/guides/" hreflang="it" rel="alternate"/>
+<link href="https://strasbourgwalk.com/pt/guides/" hreflang="pt" rel="alternate"/>
+<link href="https://strasbourgwalk.com/pl/guides/" hreflang="pl" rel="alternate"/>
+<link href="https://strasbourgwalk.com/ru/guides/" hreflang="ru" rel="alternate"/>
+<link href="https://strasbourgwalk.com/guides/" hreflang="x-default" rel="alternate"/>
+<link href="/favicon.ico" rel="icon" sizes="any"/>
+<link href="/favicon-32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="/favicon-180.png" rel="apple-touch-icon" sizes="180x180"/>
 <style>
 :root{
-  --navy:#0e1c2b; --navy2:#16293e; --ink:#12202e; --ink2:#54626f; --ink3:#7d8b98;
+  --navy:#0e1c2b; --navy2:#16293e; --ink:#12202e; --ink2:#4d5b68; --ink3:#5c6a77;
   --line:#dde5ec; --bg:#fff; --soft:#f5f8fa; --soft2:#eef3f7;
   --blue:#1668c1; --blue-d:#11539c; --blue-soft:#e9f1fb;
   --sand:#b4553d; --sand-soft:#fbeee9;
@@ -35,6 +35,7 @@ body{margin:0;background:var(--bg);color:var(--ink);
   -webkit-font-smoothing:antialiased;padding-bottom:64px}
 img{max-width:100%;height:auto;display:block}
 a{color:var(--blue);text-decoration:none}
+p a:not(.btn),li a:not(.btn),dd a:not(.btn){text-decoration:underline;text-underline-offset:2px}
 a:hover{text-decoration:underline}
 .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
 h1,h2,h3{letter-spacing:-.4px;line-height:1.22;margin:0}
@@ -88,7 +89,7 @@ nav.lang a.on{background:var(--navy);color:#fff}
 
 /* ---------- HERO ---------- */
 .hero{position:relative;background:var(--navy);color:#fff;overflow:hidden}
-.hero img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.42}
+.hero img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.78}
 .hero .scrim{position:absolute;inset:0;
   background:linear-gradient(180deg,rgba(14,28,43,.78) 0%,rgba(14,28,43,.62) 45%,rgba(14,28,43,.93) 100%)}
 .hero .inner{position:relative;max-width:1080px;margin:0 auto;padding:74px 20px 66px}
@@ -96,6 +97,8 @@ nav.lang a.on{background:var(--navy);color:#fff}
   border:1px solid rgba(255,255,255,.22);padding:6px 14px;border-radius:22px;
   font-size:13.5px;color:#dbe8f4;margin-bottom:20px}
 .hero h1{font-size:clamp(31px,5.2vw,50px);max-width:19ch}
+.hero h1 .ln{display:inline}
+@media(min-width:720px){.hero h1{max-width:none}.hero h1 .ln{display:block}}
 .hero p.sub{font-size:19px;color:#c3d5e5;max-width:56ch;margin:16px 0 28px}
 .hero .btnrow{margin-bottom:8px}
 
@@ -156,6 +159,7 @@ ul.ticks li::before{content:"";position:absolute;left:3px;top:8px;width:11px;hei
 .step p{margin:4px 0 0;font-size:14.5px;color:var(--ink2)}
 
 /* info grid */
+dl.info{margin:0}
 .info{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1px;
   background:var(--line);border:1px solid var(--line);border-radius:var(--rl);overflow:hidden}
 .info div{background:#fff;padding:17px 19px}
@@ -222,7 +226,7 @@ details.faq .a p{margin:0 0 10px}
 /* footer */
 footer.site{background:#0a1622;color:#94a6b6;padding:48px 0 30px;font-size:14.5px}
 footer.site a{color:#c3d3e0}
-footer.site h4{color:#fff;font-size:13px;text-transform:uppercase;letter-spacing:.8px;margin:0 0 12px}
+footer.site .fh{color:#fff;font-size:13px;text-transform:uppercase;letter-spacing:.8px;margin:0 0 12px;font-weight:700}
 footer.site ul{list-style:none;padding:0;margin:0}
 footer.site li{margin:6px 0}
 .fbot{border-top:1px solid #1c2c3d;margin-top:32px;padding-top:20px;font-size:13px;line-height:1.6}
@@ -249,133 +253,133 @@ footer.site li{margin:6px 0}
 </head>
 <body>
 <header class="site">
-  <div class="bar">
-    <a class="brand" href="/"><img src="/img/logo.webp" alt="Strasbourg Walk" width="34" height="34"><span>Strasbourg<i>Walk</i></span></a>
-    <details class="menu">
-      <summary>Guides ▾</summary>
-      <div class="drop">
-        <a class="all" href="/guides/">All guides →</a>
-      </div>
-    </details>
-    <nav class="lang"><a class="on" href="/">EN</a><a href="/fr/">FR</a><a href="/de/">DE</a><a href="/es/">ES</a><a href="/it/">IT</a><a href="/pt/">PT</a><a href="/pl/">PL</a><a href="/ru/">RU</a></nav>
-  </div>
+<div class="bar">
+<a class="brand" href="/"><img alt="Strasbourg Walk" height="34" src="/img/logo.webp" width="34"/><span>Strasbourg<i>Walk</i></span></a>
+<details class="menu">
+<summary>Guides ▾</summary>
+<div class="drop">
+<a class="all" href="/guides/">All guides →</a>
+</div>
+</details>
+<nav class="lang"><a class="on" href="/">EN</a><a href="/fr/">FR</a><a href="/de/">DE</a><a href="/es/">ES</a><a href="/it/">IT</a><a href="/pt/">PT</a><a href="/pl/">PL</a><a href="/ru/">RU</a></nav>
+</div>
 </header>
 <main>
 <section>
-  <div class="wrap">
-    <h2 style="font-size:clamp(28px,4vw,38px)">All Strasbourg Guides</h2>
-    <p class="lede">Detailed, fact-checked guides to visiting Strasbourg. New ones are added every week — each verified against the official source for the current year.</p>
-    <div class="grid3">
-      <div class="tile"><div class="t">
-        <span class="badge">Coming soon</span>
-        <h3>One Day in Strasbourg: The Perfect Walking Itinerary</h3><p>Morning to evening on the Grande Île, built around a route that actually works on foot.</p>
-      </div></div>
-      <div class="tile"><div class="t">
-        <span class="badge">Coming soon</span>
-        <h3>Strasbourg Walking Tour: A Self-Guided Route</h3><p>The old town on your own schedule — the full route, stop by stop, with what to look at.</p>
-      </div></div>
-      <div class="tile"><div class="t">
-        <span class="badge">Coming soon</span>
-        <h3>Strasbourg Cathedral: What to See Inside and Out</h3><p>The facade, the nave, the 330-step climb — and why the second tower was never built.</p>
-      </div></div>
-      <div class="tile"><div class="t">
-        <span class="badge">Coming soon</span>
-        <h3>The Astronomical Clock: Times, Tickets and Meaning</h3><p>12:30 every day, €3, same-day tickets only. How the queue works and what you are watching.</p>
-      </div></div>
-      <div class="tile"><div class="t">
-        <span class="badge">Coming soon</span>
-        <h3>Petite France: What to See and Where to Walk</h3><p>The tanners' quarter: the best bridges, the right light, and the name's grim origin.</p>
-      </div></div>
-      <div class="tile"><div class="t">
-        <span class="badge">Coming soon</span>
-        <h3>Best Things to Do in Strasbourg</h3><p>Ranked by what is actually worth your morning — not by what sells the most tickets.</p>
-      </div></div>
-      <div class="tile"><div class="t">
-        <span class="badge">Coming soon</span>
-        <h3>Strasbourg Old Town: Grande Île on Foot</h3><p>The UNESCO island end to end, and the streets most visitors never turn into.</p>
-      </div></div>
-      <div class="tile"><div class="t">
-        <span class="badge">Coming soon</span>
-        <h3>Is Strasbourg Worth Visiting?</h3><p>The honest answer, including who will not enjoy it.</p>
-      </div></div>
-      <div class="tile"><div class="t">
-        <span class="badge">Coming soon</span>
-        <h3>How Many Days Do You Need in Strasbourg?</h3><p>One for the island, two with museums, three if you want Colmar or the wine route.</p>
-      </div></div>
-      <div class="tile"><div class="t">
-        <span class="badge">Coming soon</span>
-        <h3>Strasbourg Christmas Market Guide</h3><p>Europe's oldest, running since 1570 — the eight market squares and how to survive the crowds.</p>
-      </div></div>
-      <div class="tile"><div class="t">
-        <span class="badge">Coming soon</span>
-        <h3>Boat Tour vs Walking Tour: Which Is Better?</h3><p>Batorama's circuits compared — plus the 2026 pontoon change and why timed tickets catch people out.</p>
-      </div></div>
-      <div class="tile"><div class="t">
-        <span class="badge">Coming soon</span>
-        <h3>What to Eat in Strasbourg: 15 Alsatian Dishes</h3><p>Flammekueche, baeckeoffe, kougelhopf — what they are and where the locals actually go.</p>
-      </div></div>
-      <div class="tile"><div class="t">
-        <span class="badge">Coming soon</span>
-        <h3>Strasbourg History: Why It Looks French and German</h3><p>Free city, Louis XIV, the Kaiser, and back again — the short version that explains the buildings.</p>
-      </div></div>
-      <div class="tile"><div class="t">
-        <span class="badge">Coming soon</span>
-        <h3>The Dancing Plague of 1518: What Really Happened?</h3><p>Four hundred people danced until they dropped. The city's response made it worse.</p>
-      </div></div>
-      <div class="tile"><div class="t">
-        <span class="badge">Coming soon</span>
-        <h3>The European Parliament: Is It Worth Visiting?</h3><p>Free, but there is one document rule that turns people away at the door.</p>
-      </div></div>
-      <div class="tile"><div class="t">
-        <span class="badge">Coming soon</span>
-        <h3>Strasbourg to Colmar: Train, Car and a Day-Trip Plan</h3><p>30 minutes by train, and how to spend the day once you are there.</p>
-      </div></div>
-    </div>
-    <div class="ticketbox" style="margin-top:34px">
-      <span class="tag">Start here</span>
-      <h3>Not sure where to begin?</h3>
-      <p style="color:var(--ink2);margin:8px 0 16px">The pillar guide covers the whole city in one page: what to see, what it costs, how long you need and when to come.</p>
-      <div class="btnrow">
-        <a class="btn" href="/">Read the complete guide to Strasbourg</a>
-        <a class="btn outline" href="https://touringbee.com/product/city-tour-of-strasbourg/?wpam_id=42&amp;utm_source=strasbourgwalk&amp;utm_medium=referral&amp;utm_campaign=guides&amp;utm_content=guides_cta" target="_blank" rel="noopener sponsored">Get the audio tour</a>
-      </div>
-    </div>
-  </div>
+<div class="wrap">
+<h2 style="font-size:clamp(28px,4vw,38px)">All Strasbourg Guides</h2>
+<p class="lede">Detailed, fact-checked guides to visiting Strasbourg. New ones are added every week — each verified against the official source for the current year.</p>
+<div class="grid3">
+<div class="tile"><div class="t">
+<span class="badge">Coming soon</span>
+<h3>One Day in Strasbourg: The Perfect Walking Itinerary</h3><p>Morning to evening on the Grande Île, built around a route that actually works on foot.</p>
+</div></div>
+<div class="tile"><div class="t">
+<span class="badge">Coming soon</span>
+<h3>Strasbourg Walking Tour: A Self-Guided Route</h3><p>The old town on your own schedule — the full route, stop by stop, with what to look at.</p>
+</div></div>
+<div class="tile"><div class="t">
+<span class="badge">Coming soon</span>
+<h3>Strasbourg Cathedral: What to See Inside and Out</h3><p>The facade, the nave, the 330-step climb — and why the second tower was never built.</p>
+</div></div>
+<div class="tile"><div class="t">
+<span class="badge">Coming soon</span>
+<h3>The Astronomical Clock: Times, Tickets and Meaning</h3><p>12:30 every day, €3, same-day tickets only. How the queue works and what you are watching.</p>
+</div></div>
+<div class="tile"><div class="t">
+<span class="badge">Coming soon</span>
+<h3>Petite France: What to See and Where to Walk</h3><p>The tanners' quarter: the best bridges, the right light, and the name's grim origin.</p>
+</div></div>
+<div class="tile"><div class="t">
+<span class="badge">Coming soon</span>
+<h3>Best Things to Do in Strasbourg</h3><p>Ranked by what is actually worth your morning — not by what sells the most tickets.</p>
+</div></div>
+<div class="tile"><div class="t">
+<span class="badge">Coming soon</span>
+<h3>Strasbourg Old Town: Grande Île on Foot</h3><p>The UNESCO island end to end, and the streets most visitors never turn into.</p>
+</div></div>
+<div class="tile"><div class="t">
+<span class="badge">Coming soon</span>
+<h3>Is Strasbourg Worth Visiting?</h3><p>The honest answer, including who will not enjoy it.</p>
+</div></div>
+<div class="tile"><div class="t">
+<span class="badge">Coming soon</span>
+<h3>How Many Days Do You Need in Strasbourg?</h3><p>One for the island, two with museums, three if you want Colmar or the wine route.</p>
+</div></div>
+<div class="tile"><div class="t">
+<span class="badge">Coming soon</span>
+<h3>Strasbourg Christmas Market Guide</h3><p>Europe's oldest, running since 1570 — the eight market squares and how to survive the crowds.</p>
+</div></div>
+<div class="tile"><div class="t">
+<span class="badge">Coming soon</span>
+<h3>Boat Tour vs Walking Tour: Which Is Better?</h3><p>Batorama's circuits compared — plus the 2026 pontoon change and why timed tickets catch people out.</p>
+</div></div>
+<div class="tile"><div class="t">
+<span class="badge">Coming soon</span>
+<h3>What to Eat in Strasbourg: 15 Alsatian Dishes</h3><p>Flammekueche, baeckeoffe, kougelhopf — what they are and where the locals actually go.</p>
+</div></div>
+<div class="tile"><div class="t">
+<span class="badge">Coming soon</span>
+<h3>Strasbourg History: Why It Looks French and German</h3><p>Free city, Louis XIV, the Kaiser, and back again — the short version that explains the buildings.</p>
+</div></div>
+<div class="tile"><div class="t">
+<span class="badge">Coming soon</span>
+<h3>The Dancing Plague of 1518: What Really Happened?</h3><p>Four hundred people danced until they dropped. The city's response made it worse.</p>
+</div></div>
+<div class="tile"><div class="t">
+<span class="badge">Coming soon</span>
+<h3>The European Parliament: Is It Worth Visiting?</h3><p>Free, but there is one document rule that turns people away at the door.</p>
+</div></div>
+<div class="tile"><div class="t">
+<span class="badge">Coming soon</span>
+<h3>Strasbourg to Colmar: Train, Car and a Day-Trip Plan</h3><p>30 minutes by train, and how to spend the day once you are there.</p>
+</div></div>
+</div>
+<div class="ticketbox" style="margin-top:34px">
+<span class="tag">Start here</span>
+<h3>Not sure where to begin?</h3>
+<p style="color:var(--ink2);margin:8px 0 16px">The pillar guide covers the whole city in one page: what to see, what it costs, how long you need and when to come.</p>
+<div class="btnrow">
+<a class="btn" href="/">Read the complete guide to Strasbourg</a>
+<a class="btn outline" href="https://touringbee.com/product/city-tour-of-strasbourg/?wpam_id=42&amp;utm_source=strasbourgwalk&amp;utm_medium=referral&amp;utm_campaign=guides&amp;utm_content=guides_cta" rel="noopener sponsored" target="_blank">Get the audio tour</a>
+</div>
+</div>
+</div>
 </section>
 </main>
 <footer class="site">
-  <div class="wrap">
-    <div class="grid4">
-      <div>
-        <div class="brand" style="color:#fff;margin-bottom:10px"><img src="/img/logo.webp" alt="" width="34" height="34"><span>Strasbourg<i>Walk</i></span></div>
-        <p style="margin:0;font-size:14px">An independent guide to Strasbourg, Alsace — and the home of the TouringBee audio tour of the city.</p>
-      </div>
-      <div><h4>Explore</h4><ul>
-        <li><a href="https://touringbee.com/product/city-tour-of-strasbourg/?wpam_id=42&amp;utm_source=strasbourgwalk&amp;utm_medium=referral&amp;utm_campaign=landing&amp;utm_content=footer" target="_blank" rel="noopener sponsored">Strasbourg Audio Guide</a></li>
-        <li><a href="/guides/">All guides</a></li>
-        <li><a href="#tour">How it works</a></li>
-        <li><a href="https://touringbee.com/shop-tbee/?wpam_id=42&amp;utm_source=strasbourgwalk&amp;utm_medium=referral&amp;utm_campaign=landing&amp;utm_content=footer_shop" target="_blank" rel="noopener sponsored">All tours</a></li>
-      </ul></div>
-      <div><h4>Legal</h4><ul>
-        <li><a href="/privacy-policy/">Privacy Policy</a></li>
-        <li><a href="https://touringbee.com/terms-and-conditions-of-use/" target="_blank" rel="noopener">Terms of Use</a></li>
-        <li><a href="/affiliate-disclosure/">Affiliate Disclosure</a></li>
-        <li><a href="https://touringbee.com/affiliate-home/" target="_blank" rel="noopener">Become an Affiliate</a></li>
-      </ul></div>
-      <div><h4>Contact</h4><ul>
-        <li><a href="mailto:info@touringbee.com">info@touringbee.com</a></li>
-        <li><a href="https://www.instagram.com/touringbeeapp" target="_blank" rel="noopener">Instagram</a></li>
-        <li><a href="https://www.youtube.com/@TouringBee" target="_blank" rel="noopener">YouTube</a></li>
-      </ul>
-      <h4 style="margin-top:18px">Languages</h4>
-      <ul><li><a href="/">English</a> · <a href="/fr/">Français</a> · <a href="/de/">Deutsch</a> · <a href="/es/">Español</a></li>
-      <li><a href="/it/">Italiano</a> · <a href="/pt/">Português</a> · <a href="/pl/">Polski</a> · <a href="/ru/">Русский</a></li></ul></div>
-    </div>
-    <div class="fbot">
-      © 2026 Strasbourg Walk · A TouringBee project<br>
+<div class="wrap">
+<div class="grid4">
+<div>
+<div class="brand" style="color:#fff;margin-bottom:10px"><img alt="" height="34" src="/img/logo.webp" width="34"/><span>Strasbourg<i>Walk</i></span></div>
+<p style="margin:0;font-size:14px">An independent guide to Strasbourg, Alsace — and the home of the TouringBee audio tour of the city.</p>
+</div>
+<div><h3 class="fh">Explore</h3><ul>
+<li><a href="https://touringbee.com/product/city-tour-of-strasbourg/?wpam_id=42&amp;utm_source=strasbourgwalk&amp;utm_medium=referral&amp;utm_campaign=landing&amp;utm_content=footer" rel="noopener sponsored" target="_blank">Strasbourg Audio Guide</a></li>
+<li><a href="/guides/">All guides</a></li>
+<li><a href="#tour">How it works</a></li>
+<li><a href="https://touringbee.com/shop-tbee/?wpam_id=42&amp;utm_source=strasbourgwalk&amp;utm_medium=referral&amp;utm_campaign=landing&amp;utm_content=footer_shop" rel="noopener sponsored" target="_blank">All tours</a></li>
+</ul></div>
+<div><h3 class="fh">Legal</h3><ul>
+<li><a href="/privacy-policy/">Privacy Policy</a></li>
+<li><a href="https://touringbee.com/terms-and-conditions-of-use/" rel="noopener" target="_blank">Terms of Use</a></li>
+<li><a href="/affiliate-disclosure/">Affiliate Disclosure</a></li>
+<li><a href="https://touringbee.com/affiliate-home/" rel="noopener" target="_blank">Become an Affiliate</a></li>
+</ul></div>
+<div><h3 class="fh">Contact</h3><ul>
+<li><a href="mailto:info@touringbee.com">info@touringbee.com</a></li>
+<li><a href="https://www.instagram.com/touringbeeapp" rel="noopener" target="_blank">Instagram</a></li>
+<li><a href="https://www.youtube.com/@TouringBee" rel="noopener" target="_blank">YouTube</a></li>
+</ul>
+<h3 class="fh" style="margin-top:18px">Languages</h3>
+<ul><li><a href="/">English</a> · <a href="/fr/">Français</a> · <a href="/de/">Deutsch</a> · <a href="/es/">Español</a></li>
+<li><a href="/it/">Italiano</a> · <a href="/pt/">Português</a> · <a href="/pl/">Polski</a> · <a href="/ru/">Русский</a></li></ul></div>
+</div>
+<div class="fbot">
+      © 2026 Strasbourg Walk · A TouringBee project<br/>
       This website is independent and not affiliated with the Fondation de l'Œuvre Notre-Dame, the Ville de Strasbourg or the European Parliament.
     </div>
-  </div>
+</div>
 </footer>
 </body>
 </html>

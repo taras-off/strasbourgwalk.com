@@ -11,7 +11,7 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/favicon-180.png">
 <style>
 :root{
-  --navy:#0e1c2b; --navy2:#16293e; --ink:#12202e; --ink2:#54626f; --ink3:#7d8b98;
+  --navy:#0e1c2b; --navy2:#16293e; --ink:#12202e; --ink2:#4d5b68; --ink3:#5c6a77;
   --line:#dde5ec; --bg:#fff; --soft:#f5f8fa; --soft2:#eef3f7;
   --blue:#1668c1; --blue-d:#11539c; --blue-soft:#e9f1fb;
   --sand:#b4553d; --sand-soft:#fbeee9;
@@ -26,6 +26,7 @@ body{margin:0;background:var(--bg);color:var(--ink);
   -webkit-font-smoothing:antialiased;padding-bottom:64px}
 img{max-width:100%;height:auto;display:block}
 a{color:var(--blue);text-decoration:none}
+p a:not(.btn),li a:not(.btn),dd a:not(.btn){text-decoration:underline;text-underline-offset:2px}
 a:hover{text-decoration:underline}
 .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
 h1,h2,h3{letter-spacing:-.4px;line-height:1.22;margin:0}
@@ -79,7 +80,7 @@ nav.lang a.on{background:var(--navy);color:#fff}
 
 /* ---------- HERO ---------- */
 .hero{position:relative;background:var(--navy);color:#fff;overflow:hidden}
-.hero img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.42}
+.hero img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.78}
 .hero .scrim{position:absolute;inset:0;
   background:linear-gradient(180deg,rgba(14,28,43,.78) 0%,rgba(14,28,43,.62) 45%,rgba(14,28,43,.93) 100%)}
 .hero .inner{position:relative;max-width:1080px;margin:0 auto;padding:74px 20px 66px}
@@ -87,6 +88,8 @@ nav.lang a.on{background:var(--navy);color:#fff}
   border:1px solid rgba(255,255,255,.22);padding:6px 14px;border-radius:22px;
   font-size:13.5px;color:#dbe8f4;margin-bottom:20px}
 .hero h1{font-size:clamp(31px,5.2vw,50px);max-width:19ch}
+.hero h1 .ln{display:inline}
+@media(min-width:720px){.hero h1{max-width:none}.hero h1 .ln{display:block}}
 .hero p.sub{font-size:19px;color:#c3d5e5;max-width:56ch;margin:16px 0 28px}
 .hero .btnrow{margin-bottom:8px}
 
@@ -147,6 +150,7 @@ ul.ticks li::before{content:"";position:absolute;left:3px;top:8px;width:11px;hei
 .step p{margin:4px 0 0;font-size:14.5px;color:var(--ink2)}
 
 /* info grid */
+dl.info{margin:0}
 .info{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1px;
   background:var(--line);border:1px solid var(--line);border-radius:var(--rl);overflow:hidden}
 .info div{background:#fff;padding:17px 19px}
@@ -213,7 +217,7 @@ details.faq .a p{margin:0 0 10px}
 /* footer */
 footer.site{background:#0a1622;color:#94a6b6;padding:48px 0 30px;font-size:14.5px}
 footer.site a{color:#c3d3e0}
-footer.site h4{color:#fff;font-size:13px;text-transform:uppercase;letter-spacing:.8px;margin:0 0 12px}
+footer.site .fh{color:#fff;font-size:13px;text-transform:uppercase;letter-spacing:.8px;margin:0 0 12px;font-weight:700}
 footer.site ul{list-style:none;padding:0;margin:0}
 footer.site li{margin:6px 0}
 .fbot{border-top:1px solid #1c2c3d;margin-top:32px;padding-top:20px;font-size:13px;line-height:1.6}
@@ -280,24 +284,24 @@ footer.site li{margin:6px 0}
         <div class="brand" style="color:#fff;margin-bottom:10px"><img src="/img/logo.webp" alt="" width="34" height="34"><span>Strasbourg<i>Walk</i></span></div>
         <p style="margin:0;font-size:14px">An independent guide to Strasbourg, Alsace — and the home of the TouringBee audio tour of the city.</p>
       </div>
-      <div><h4>Explore</h4><ul>
+      <div><h3 class="fh">Explore</h3><ul>
         <li><a href="https://touringbee.com/product/city-tour-of-strasbourg/?wpam_id=42&amp;utm_source=strasbourgwalk&amp;utm_medium=referral&amp;utm_campaign=landing&amp;utm_content=footer" target="_blank" rel="noopener sponsored">Strasbourg Audio Guide</a></li>
         <li><a href="/guides/">All guides</a></li>
         <li><a href="#tour">How it works</a></li>
         <li><a href="https://touringbee.com/shop-tbee/?wpam_id=42&amp;utm_source=strasbourgwalk&amp;utm_medium=referral&amp;utm_campaign=landing&amp;utm_content=footer_shop" target="_blank" rel="noopener sponsored">All tours</a></li>
       </ul></div>
-      <div><h4>Legal</h4><ul>
+      <div><h3 class="fh">Legal</h3><ul>
         <li><a href="/privacy-policy/">Privacy Policy</a></li>
         <li><a href="https://touringbee.com/terms-and-conditions-of-use/" target="_blank" rel="noopener">Terms of Use</a></li>
         <li><a href="/affiliate-disclosure/">Affiliate Disclosure</a></li>
         <li><a href="https://touringbee.com/affiliate-home/" target="_blank" rel="noopener">Become an Affiliate</a></li>
       </ul></div>
-      <div><h4>Contact</h4><ul>
+      <div><h3 class="fh">Contact</h3><ul>
         <li><a href="mailto:info@touringbee.com">info@touringbee.com</a></li>
         <li><a href="https://www.instagram.com/touringbeeapp" target="_blank" rel="noopener">Instagram</a></li>
         <li><a href="https://www.youtube.com/@TouringBee" target="_blank" rel="noopener">YouTube</a></li>
       </ul>
-      <h4 style="margin-top:18px">Languages</h4>
+      <h3 class="fh" style="margin-top:18px">Languages</h3>
       <ul><li><a href="/">English</a> · <a href="/fr/">Français</a> · <a href="/de/">Deutsch</a> · <a href="/es/">Español</a></li>
       <li><a href="/it/">Italiano</a> · <a href="/pt/">Português</a> · <a href="/pl/">Polski</a> · <a href="/ru/">Русский</a></li></ul></div>
     </div>
