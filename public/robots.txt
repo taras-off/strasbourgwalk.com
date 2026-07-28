@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://strasbourgwalk.com/sitemap.xml
