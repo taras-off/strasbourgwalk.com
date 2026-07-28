@@ -1,0 +1,27 @@
+{
+  "colmar": {
+    "en": "https://touringbee.com/product/colmar-city-tour/",
+    "fr": "https://touringbee.com/fr/product/visite-de-la-ville-de-colmar/",
+    "de": "https://touringbee.com/de/product/stadtrundfahrt-in-colmar/",
+    "it": "https://touringbee.com/product/il-tour-della-citta-di-colmar/",
+    "pl": "https://touringbee.com/pl/product/wycieczka-po-miescie-colmar/"
+  },
+  "luxembourg": {
+    "en": "https://touringbee.com/product/luxembourg-city-tour/"
+  },
+  "cologne": {
+    "en": "https://touringbee.com/product/cologne-cathedral-and-old-city-tour/",
+    "fr": "https://touringbee.com/fr/product/cologne-cathedral-and-old-city-tour-fr/",
+    "de": "https://touringbee.com/de/product/cologne-cathedral-and-old-city-tour-de/",
+    "it": "https://touringbee.com/product/cologne-cathedral-and-old-city-tour-it/",
+    "pl": "https://touringbee.com/pl/product/cologne-cathedral-and-old-city-tour-pl/"
+  },
+  "paris": {
+    "en": "https://touringbee.com/product/big-sightseeing-tour-of-paris/",
+    "de": "https://touringbee.com/de/product/big-sightseeing-tour-of-paris-de/",
+    "it": "https://touringbee.com/product/big-sightseeing-tour-of-paris-it/",
+    "pl": "https://touringbee.com/pl/product/big-sightseeing-tour-of-paris-pl/",
+    "ru": "https://touringbee.com/ru/product/big-sightseeing-tour-of-paris-ru/",
+    "es": "https://touringbee.com/es/product/big-sightseeing-tour-of-paris-es/"
+  }
+}
