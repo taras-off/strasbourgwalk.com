@@ -106,17 +106,19 @@ def localize(master: str, lang: str, tr: dict):
 
     # 2. text map first, while the keys still match the master verbatim.
     #    Longest key first so a short label cannot clobber a longer string it prefixes.
-    missing = []
-    for src in sorted(tr, key=len, reverse=True):
-        dst = tr[src]
-        if not dst:
-            missing.append(('empty', src))
-        elif src not in h:
-            missing.append(('nomatch', src))
-        else:
-            h = h.replace(src, dst)
-    for src, dst in EXTRA.get(lang, {}).items():
-        h = h.replace(src, dst)
+    missing = [('empty', k) for k, v in tr.items() if not v]
+    table = {k: v for k, v in tr.items() if v}
+    table.update({k: v for k, v in EXTRA.get(lang, {}).items() if v})
+    # keys that live in the parked switcher or JSON-LD are handled later, not here
+    parked = original_nav + en_ld
+    missing += [('nomatch', k) for k in table if k not in h and k not in parked]
+
+    # ONE pass over the document. A second pass would re-scan text that has already
+    # been translated, so a short key like "Petite France" would fire again inside a
+    # long string that legitimately contains it -> "Пти-Франс (Пти-Франс)".
+    # Longest key first means the longest alternative wins at any given position.
+    pattern = re.compile('|'.join(re.escape(k) for k in sorted(table, key=len, reverse=True)))
+    h = pattern.sub(lambda m: table[m.group(0)], h)
 
     # 3. head: lang, canonical, og
     h = h.replace('<html lang="en">', f'<html lang="{lang}">', 1)

@@ -164,13 +164,11 @@
  "Languages": "Языки",
  "<a href=\"/\">English</a> · <a href=\"/fr/\">Français</a> · <a href=\"/de/\">Deutsch</a> · <a href=\"/es/\">Español</a>": "<a href=\"/\">English</a> · <a href=\"/fr/\">Français</a> · <a href=\"/de/\">Deutsch</a> · <a href=\"/es/\">Español</a>",
  "<a href=\"/it/\">Italiano</a> · <a href=\"/pt/\">Português</a> · <a href=\"/pl/\">Polski</a> · <a href=\"/ru/\">Русский</a>": "<a href=\"/it/\">Italiano</a> · <a href=\"/pt/\">Português</a> · <a href=\"/pl/\">Polski</a> · <a href=\"/ru/\">Русский</a>",
- "<span aria-hidden=\"true\" style=\"color:#f0b95a\">★</span> 4,664 travellers have already listened · 33 stops · 8 languages · works offline": "<span aria-hidden=\"true\" style=\"color:#f0b95a\">★</span> 4 664 путешественника уже послушали · 33 остановки · 8 языков · работает офлайн",
  "Instant access": "Доступ сразу",
  "GetYourGuide": "GetYourGuide",
  "Booking.com": "Booking.com",
  "Read this before you book anything": "Прочтите это, прежде чем что-то бронировать",
  "From €9.99 <small>· 1 year access</small>": "От €9,99 <small>· доступ на год</small>",
- "· 7 verified reviews on Viator &amp; GetYourGuide · <strong>4,664 travellers have listened to this guide</strong>": "· 7 проверенных отзывов на Viator &amp; GetYourGuide · <strong>4 664 путешественника послушали этот гид</strong>",
  "audio stops": "аудиоточек",
  "at your own pace": "в своём темпе",
  "languages": "языков",
@@ -213,5 +211,8 @@
  "A boat on the river Ill in Strasbourg": "Кораблик на реке Иль в Страсбурге",
  "Autumn colours over the canals of Strasbourg": "Осенние краски над каналами Страсбурга",
  "Strasbourg lit up for Christmas": "Страсбург в рождественской подсветке",
- "Eugene, the author of this guide": "Евгений, автор этого путеводителя"
+ "Eugene, the author of this guide": "Евгений, автор этого путеводителя",
+ "<span aria-hidden=\"true\" style=\"color:#f0b95a\">★</span> 4.7 on the App Store &amp; Google Play · 4,664 travellers have listened · 8 languages · works offline": "<span aria-hidden=\"true\" style=\"color:#f0b95a\">★</span> 4,7 в App Store и Google Play · 4 664 путешественника уже послушали · 8 языков · работает офлайн",
+ "on the App Store &amp; Google Play · 7 verified reviews on Viator &amp; GetYourGuide · <strong>4,664 travellers have listened to this guide</strong>": "в App Store и Google Play · 7 проверенных отзывов на Viator &amp; GetYourGuide · <strong>4 664 путешественника послушали этот гид</strong>",
+ "4.7": "4,7"
 }

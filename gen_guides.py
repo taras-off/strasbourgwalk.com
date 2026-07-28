@@ -16,12 +16,10 @@ def localize(master, lang):
     original_nav = NAV_RE.search(h).group(0)
     h = NAV_RE.sub(NAV, h)
 
-    missing = []
-    for src in sorted(tr, key=len, reverse=True):
-        dst = tr[src]
-        if not dst or src not in h:
-            continue                              # shared map covers both pages; misses are expected
-        h = h.replace(src, dst)
+    table = {k: v for k, v in tr.items() if v and k in h}
+    if table:
+        pattern = re.compile('|'.join(re.escape(k) for k in sorted(table, key=len, reverse=True)))
+        h = pattern.sub(lambda m: table[m.group(0)], h)   # single pass, see gen.py
 
     h = h.replace('<html lang="en">', f'<html lang="{lang}">', 1)
     h = h.replace(f'href="{DOMAIN}/guides/" rel="canonical"',
