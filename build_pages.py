@@ -67,17 +67,24 @@ GUIDES = [
  ("strasbourg-european-parliament","The European Parliament: Is It Worth Visiting?","Free, but there is one document rule that turns people away at the door."),
  ("strasbourg-to-colmar","Strasbourg to Colmar: Train, Car and a Day-Trip Plan","30 minutes by train, and how to spend the day once you are there."),
 ]
-cards = '\n'.join(f'''      <div class="tile"><div class="t">
-        <span class="badge">Coming soon</span>
-        <h3>{t}</h3><p>{d}</p>
-      </div></div>''' for s,t,d in GUIDES)
+LIVE = {'one-day-in-strasbourg'}
+def card(s, t, d):
+    if s in LIVE:
+        return (f'      <div class="tile"><div class="t">\n'
+                f'        <h3><a href="/{s}/">{t}</a></h3><p>{d}</p>\n'
+                f'      </div></div>')
+    return (f'      <div class="tile"><div class="t">\n'
+            f'        <span class="badge">Coming soon</span>\n'
+            f'        <h3>{t}</h3><p>{d}</p>\n'
+            f'      </div></div>')
+cards = '\n'.join(card(s, t, d) for s, t, d in GUIDES)
 
 write('guides', page('guides',
   'All Strasbourg Guides | TouringBee',
   'Every guide on Strasbourg Walk: the cathedral, the Christmas market, Petite France, getting there and where to stay — all fact-checked for 2026.',
   f'''<section>
   <div class="wrap">
-    <h2 style="font-size:clamp(28px,4vw,38px)">All Strasbourg Guides</h2>
+    <h1 style="font-size:clamp(28px,4vw,38px)">All Strasbourg Guides</h1>
     <p class="lede">Detailed, fact-checked guides to visiting Strasbourg. New ones are added every week — each verified against the official source for the current year.</p>
     <div class="grid3">
 {cards}
@@ -99,7 +106,7 @@ write('privacy-policy', page('privacy-policy',
   'Privacy Policy | Strasbourg Walk',
   'How Strasbourg Walk handles data: what we collect, what we do not, and the third parties involved.',
   '''<section><div class="wrap" style="max-width:760px">
-<h2>Privacy Policy</h2>
+<h1>Privacy Policy</h1>
 <p class="lede">Last updated 28 July 2026.</p>
 <h3>Who we are</h3>
 <p>Strasbourg Walk (strasbourgwalk.com) is an independent travel guide published as part of the TouringBee project. Touringbee Limited is registered in the Republic of Ireland, company number 660321. Contact: <a href="mailto:info@touringbee.com">info@touringbee.com</a>.</p>
@@ -122,7 +129,7 @@ write('affiliate-disclosure', page('affiliate-disclosure',
   'Affiliate Disclosure | Strasbourg Walk',
   'Which links on Strasbourg Walk earn a commission, how much it costs you (nothing), and how it affects what we recommend (it does not).',
   '''<section><div class="wrap" style="max-width:760px">
-<h2>Affiliate Disclosure</h2>
+<h1>Affiliate Disclosure</h1>
 <p class="lede">Last updated 28 July 2026.</p>
 <h3>The short version</h3>
 <p>Some links on this site earn us a commission if you buy through them. You pay exactly the same price. It never changes what we recommend, and we do not accept payment for coverage.</p>

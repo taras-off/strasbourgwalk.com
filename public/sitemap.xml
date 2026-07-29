@@ -235,4 +235,116 @@
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
+  <url>
+    <loc>https://strasbourgwalk.com/one-day-in-strasbourg/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://strasbourgwalk.com/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://strasbourgwalk.com/fr/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://strasbourgwalk.com/de/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://strasbourgwalk.com/es/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://strasbourgwalk.com/it/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://strasbourgwalk.com/pt/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://strasbourgwalk.com/pl/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://strasbourgwalk.com/ru/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://strasbourgwalk.com/one-day-in-strasbourg/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://strasbourgwalk.com/fr/one-day-in-strasbourg/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://strasbourgwalk.com/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://strasbourgwalk.com/fr/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://strasbourgwalk.com/de/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://strasbourgwalk.com/es/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://strasbourgwalk.com/it/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://strasbourgwalk.com/pt/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://strasbourgwalk.com/pl/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://strasbourgwalk.com/ru/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://strasbourgwalk.com/one-day-in-strasbourg/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://strasbourgwalk.com/de/one-day-in-strasbourg/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://strasbourgwalk.com/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://strasbourgwalk.com/fr/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://strasbourgwalk.com/de/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://strasbourgwalk.com/es/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://strasbourgwalk.com/it/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://strasbourgwalk.com/pt/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://strasbourgwalk.com/pl/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://strasbourgwalk.com/ru/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://strasbourgwalk.com/one-day-in-strasbourg/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://strasbourgwalk.com/es/one-day-in-strasbourg/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://strasbourgwalk.com/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://strasbourgwalk.com/fr/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://strasbourgwalk.com/de/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://strasbourgwalk.com/es/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://strasbourgwalk.com/it/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://strasbourgwalk.com/pt/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://strasbourgwalk.com/pl/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://strasbourgwalk.com/ru/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://strasbourgwalk.com/one-day-in-strasbourg/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://strasbourgwalk.com/it/one-day-in-strasbourg/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://strasbourgwalk.com/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://strasbourgwalk.com/fr/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://strasbourgwalk.com/de/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://strasbourgwalk.com/es/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://strasbourgwalk.com/it/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://strasbourgwalk.com/pt/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://strasbourgwalk.com/pl/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://strasbourgwalk.com/ru/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://strasbourgwalk.com/one-day-in-strasbourg/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://strasbourgwalk.com/pt/one-day-in-strasbourg/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://strasbourgwalk.com/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://strasbourgwalk.com/fr/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://strasbourgwalk.com/de/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://strasbourgwalk.com/es/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://strasbourgwalk.com/it/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://strasbourgwalk.com/pt/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://strasbourgwalk.com/pl/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://strasbourgwalk.com/ru/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://strasbourgwalk.com/one-day-in-strasbourg/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://strasbourgwalk.com/pl/one-day-in-strasbourg/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://strasbourgwalk.com/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://strasbourgwalk.com/fr/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://strasbourgwalk.com/de/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://strasbourgwalk.com/es/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://strasbourgwalk.com/it/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://strasbourgwalk.com/pt/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://strasbourgwalk.com/pl/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://strasbourgwalk.com/ru/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://strasbourgwalk.com/one-day-in-strasbourg/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://strasbourgwalk.com/ru/one-day-in-strasbourg/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://strasbourgwalk.com/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://strasbourgwalk.com/fr/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://strasbourgwalk.com/de/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://strasbourgwalk.com/es/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://strasbourgwalk.com/it/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://strasbourgwalk.com/pt/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://strasbourgwalk.com/pl/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://strasbourgwalk.com/ru/one-day-in-strasbourg/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://strasbourgwalk.com/one-day-in-strasbourg/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
