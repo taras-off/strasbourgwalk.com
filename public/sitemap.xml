@@ -450,6 +450,118 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://strasbourgwalk.com/strasbourg-walking-tour/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://strasbourgwalk.com/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://strasbourgwalk.com/fr/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://strasbourgwalk.com/de/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://strasbourgwalk.com/es/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://strasbourgwalk.com/it/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://strasbourgwalk.com/pt/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://strasbourgwalk.com/pl/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://strasbourgwalk.com/ru/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://strasbourgwalk.com/strasbourg-walking-tour/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://strasbourgwalk.com/fr/strasbourg-walking-tour/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://strasbourgwalk.com/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://strasbourgwalk.com/fr/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://strasbourgwalk.com/de/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://strasbourgwalk.com/es/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://strasbourgwalk.com/it/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://strasbourgwalk.com/pt/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://strasbourgwalk.com/pl/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://strasbourgwalk.com/ru/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://strasbourgwalk.com/strasbourg-walking-tour/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://strasbourgwalk.com/de/strasbourg-walking-tour/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://strasbourgwalk.com/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://strasbourgwalk.com/fr/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://strasbourgwalk.com/de/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://strasbourgwalk.com/es/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://strasbourgwalk.com/it/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://strasbourgwalk.com/pt/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://strasbourgwalk.com/pl/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://strasbourgwalk.com/ru/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://strasbourgwalk.com/strasbourg-walking-tour/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://strasbourgwalk.com/es/strasbourg-walking-tour/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://strasbourgwalk.com/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://strasbourgwalk.com/fr/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://strasbourgwalk.com/de/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://strasbourgwalk.com/es/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://strasbourgwalk.com/it/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://strasbourgwalk.com/pt/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://strasbourgwalk.com/pl/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://strasbourgwalk.com/ru/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://strasbourgwalk.com/strasbourg-walking-tour/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://strasbourgwalk.com/it/strasbourg-walking-tour/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://strasbourgwalk.com/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://strasbourgwalk.com/fr/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://strasbourgwalk.com/de/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://strasbourgwalk.com/es/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://strasbourgwalk.com/it/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://strasbourgwalk.com/pt/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://strasbourgwalk.com/pl/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://strasbourgwalk.com/ru/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://strasbourgwalk.com/strasbourg-walking-tour/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://strasbourgwalk.com/pt/strasbourg-walking-tour/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://strasbourgwalk.com/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://strasbourgwalk.com/fr/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://strasbourgwalk.com/de/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://strasbourgwalk.com/es/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://strasbourgwalk.com/it/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://strasbourgwalk.com/pt/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://strasbourgwalk.com/pl/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://strasbourgwalk.com/ru/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://strasbourgwalk.com/strasbourg-walking-tour/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://strasbourgwalk.com/pl/strasbourg-walking-tour/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://strasbourgwalk.com/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://strasbourgwalk.com/fr/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://strasbourgwalk.com/de/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://strasbourgwalk.com/es/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://strasbourgwalk.com/it/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://strasbourgwalk.com/pt/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://strasbourgwalk.com/pl/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://strasbourgwalk.com/ru/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://strasbourgwalk.com/strasbourg-walking-tour/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://strasbourgwalk.com/ru/strasbourg-walking-tour/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://strasbourgwalk.com/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://strasbourgwalk.com/fr/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://strasbourgwalk.com/de/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://strasbourgwalk.com/es/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://strasbourgwalk.com/it/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://strasbourgwalk.com/pt/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://strasbourgwalk.com/pl/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://strasbourgwalk.com/ru/strasbourg-walking-tour/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://strasbourgwalk.com/strasbourg-walking-tour/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://strasbourgwalk.com/privacy-policy/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
