@@ -22,8 +22,10 @@ def localize(master, lang):
         h = pattern.sub(lambda m: table[m.group(0)], h)   # single pass, see gen.py
 
     h = h.replace('<html lang="en">', f'<html lang="{lang}">', 1)
-    h = h.replace(f'href="{DOMAIN}/guides/" rel="canonical"',
-                  f'href="{DOMAIN}/{lang}/guides/" rel="canonical"')
+    # the hub master writes rel before href, articles write href before rel — handle both
+    for a, b in ((f'href="{DOMAIN}/guides/" rel="canonical"', f'href="{DOMAIN}/{lang}/guides/" rel="canonical"'),
+                 (f'rel="canonical" href="{DOMAIN}/guides/"', f'rel="canonical" href="{DOMAIN}/{lang}/guides/"')):
+        h = h.replace(a, b)
     h = h.replace(PRODUCT['en'], PRODUCT[lang]).replace(SHOP['en'], SHOP[lang])
     h = h.replace('booking.com/searchresults.html', f'booking.com/searchresults.{lang}.html')
     if lang == 'fr':
